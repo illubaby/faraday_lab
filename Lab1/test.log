@@ -1,0 +1,4 @@
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/n100, fanout, 35.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/nl01, fanout, 45.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/nl02, fanout, 55.
+Warning(ercMUL-warl): Inout pin, dcvvfv

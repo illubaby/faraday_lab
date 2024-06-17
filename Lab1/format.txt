@@ -1,0 +1,6 @@
+2160 ** Warning (ercNET-warl): Large fanout wire,
+24 ** Warning(ercMUL-warl): Inout pin,
+3 ** Error(ercFLO-errl): Floating input/bi-directional pin,
+3 ** Error(ercISPOW-errl): The connection of the fa_is power pin
+3 ** Error(ercSUP-err7): supply wire 1'b0 connects to bidirectional
+83 ** Warning(ercICG-warl): Large fanout wire drived by

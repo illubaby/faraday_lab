@@ -1,0 +1,75 @@
+Netlist Format : Verilog
+Netlist File Name : FSNOFS142A.v
+Log File Name : TMUL_GCLD.v
+Report File Name : TMU2_GCLD.v
+Maximum Fanout : 32
+Clock Constraint File : <none>
+Floorplan Constraint File : <none>
+CPF File : <none>
+Top Cell Name : FSNOFS142A
+------------------------------------------------------------------------------
+Information (ercENV-1): Checking command line options.
+Information(ercENV-10): No executing "redundant instance" checking.
+Information(ercENV-3): Reading library file core corner.
+Information(ercENV-2): Reading netlist with top cell FSNOFS142A.
+Error(ercENV-13): Some libraries are not compatible in "fon@v_ors fsn@g_w".
+Please refer to the file $FTC/ETC/library.lis.
+
+Information(ercNET-wars1): Total 366 net(s) which fanouts are larger than
+maximum setting, 32.
+
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/ijtag_to_sel, fanout, 34.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/insertion_tessent_and_2_0,
+fanout, 34.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/insertion_tessent_or_0,
+fanout, 34.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/pad2buf_FCKA, fanout, 9636.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/to_ijtag_reset, fanout, 44.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/to_ijtag_tck, fanout, 53.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/BIST_ASYNC_RESET,
+fanout, 537.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/BIST_SETUP[0],
+fanout, 70.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/BIST_SETUP[1],
+fanout, 56.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/BIST_SETUP[2],
+fanout, 46.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/buf2m_B1, fanout,
+9646.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/ltest_to_en_ts1,
+fanout, 35.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/n100, fanout, 35.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/nl01, fanout, 45.
+Warning(ercNET-warl): Large fanout wire, FSNOFS142A/u_core/nl02, fanout, 55.
+Warning(ercMUL-warl): Inout pin, dcvvfv
+Warning(ercMUL-warl): Inout pin, gtrgnoitrg
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOB4/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOB13/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOA14/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOB5/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOB14/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOA15/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_MUXCMPA/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOB6/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOB15/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_scan_out/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_restart_h/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_TM_info/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_MUXCMPB/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOB7/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOA0/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOB8/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOA1/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_alg_sout/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_TM_done/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_TM_CKOUT/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOB9/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOA2/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_DOA3/E, is not connecting to a Tiel cell.
+Error(ercTIE-errl): Instance pin, FSNOFS142A/PADO_TOUT/E, is not connecting to a Tiel cell.
+Warning(ercDUC-warl): The dont_use cell "BUFSMT2GCLDX1" is used in the design.
+Warning(ercDUC-warl): The dont_use cell "MUX2CKGCLDX2" is used in the design.
+Warning(ercDUC-warl): The dont_use cell "MUX2CKGCLDX3" is used in the design.
+Warning(ercDUC-warl): The dont_use cell "MUX2CKGCLDX4" is used in the design.
+Information: Total: 1147 error(s), 487 warning(s) encountered.
+
